@@ -1,0 +1,59 @@
+@import 'bootstrap/scss/bootstrap';
+
+.col-sm-12{
+    color: rgb(0, 0, 0); 
+    font-weight: normal; 
+    font-size: 55px; 
+    font-family: Bunny Bear; 
+    text-transform: uppercase;
+    margin-left: 200px; 
+}
+
+.container{
+    background: #fcfafae1;
+}
+
+.alert-success{
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    background: #80DC29;
+    color: black;
+    margin: 15px;
+    margin-left: 35%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.alert-danger{
+    @extend.alert-success;
+    background: #F6A816;
+}
+
+.text1{
+    width: 250px;    
+}
+
+
+.button1{
+    background-color:#C0C0C0; 
+    border-radius: 5px; 
+    margin:1px;
+}
+
+.button2{
+    @extend.button1;
+    color: red;    
+}
+
+.table{
+    margin: 0 auto;
+    border: #000000;
+}
+
+
+
+
+
+
+
